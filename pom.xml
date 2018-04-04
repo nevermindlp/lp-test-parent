@@ -11,6 +11,7 @@
 
     <modules>
         <module>proxy-test</module>
+        <module>jni-test</module>
     </modules>
 
     <properties>

@@ -1,8 +1,8 @@
 package lp;
 
 import lp.proxy.jdk.CustomProxy;
-import lp.service.CustomInterface;
-import lp.service.CustomInterfaceImpl;
+import lp.proxy.service.CustomInterface;
+import lp.proxy.service.CustomInterfaceImpl;
 
 /**
  * Created by lvpeng01 on 2018/4/2.

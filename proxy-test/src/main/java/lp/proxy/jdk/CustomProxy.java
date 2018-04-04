@@ -7,7 +7,7 @@ import java.lang.reflect.Proxy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import lp.service.CustomInterface;
+import lp.proxy.service.CustomInterface;
 
 /**
  * Created by lvpeng01 on 2018/4/2.
