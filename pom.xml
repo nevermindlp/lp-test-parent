@@ -13,6 +13,9 @@
         <module>proxy-test</module>
         <module>jni-test</module>
         <module>classloader-test</module>
+        <module>security-test</module>
+        <module>ignite-test</module>
+        <module>opencv-test</module>
     </modules>
 
     <properties>
