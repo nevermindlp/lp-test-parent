@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lp.security.dao.PermissionDao">
+    <select id="findAll"  resultType="lp.security.domain.Resource">
+
+        SELECT * from sys_resource ;
+    </select>
+
+    <select id="findByUserId" parameterType="int" resultType="lp.security.domain.Resource">
+        select p.*
+        from sys_user u
+        LEFT JOIN sys_user_role sur on u.id= sur.user_id
+        LEFT JOIN sys_role r on sur.role_id=r.id
+        LEFT JOIN sys_role_resource srr on srr.role_id=r.id
+        LEFT JOIN sys_resource res on res.id =srr.resource_id
+        where u.id=#{userId}
+    </select>
+</mapper>
