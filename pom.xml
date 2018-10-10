@@ -16,6 +16,8 @@
         <module>security-test</module>
         <module>ignite-test</module>
         <module>opencv-test</module>
+        <module>common-test</module>
+        <module>io-test</module>
     </modules>
 
     <properties>
