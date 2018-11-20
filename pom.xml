@@ -18,6 +18,9 @@
         <module>opencv-test</module>
         <module>common-test</module>
         <module>io-test</module>
+        <module>module-test</module>
+        <module>springframe-test</module>
+        <module>objectpool-test</module>
     </modules>
 
     <properties>
