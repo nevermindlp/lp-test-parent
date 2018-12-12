@@ -25,4 +25,14 @@ public class TimeTest {
         }
     }
 
+    @Test
+    public void testNpe1() {
+//        myTest(new Date());
+        myTest(null);
+    }
+
+    private void myTest(Date d) {
+        System.out.println(d.getTime());
+    }
+
 }

@@ -41,7 +41,7 @@ public class MatchUtils {
         return cosine(ByteUtil.getFloats(feature1), ByteUtil.getFloats(feature2));
     }
 
-    public static double ncosine(byte[] b1, byte[] b2) {
+    public static double norCosine(byte[] b1, byte[] b2) {
         Assert.notNull(b1);
         Assert.notNull(b2);
         float[] feature1 = ByteUtil.getFloats(b1);

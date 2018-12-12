@@ -258,5 +258,4 @@ public class LambdaTest {
         list.forEach(p -> info[0] += p.getCode() + " ");
         return info[0];
     }
-
 }

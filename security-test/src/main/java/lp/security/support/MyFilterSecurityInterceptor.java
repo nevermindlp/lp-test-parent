@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by lvpeng01 on 2018/6/13.
  */
-@Component
+//@Component
 public class MyFilterSecurityInterceptor extends AbstractSecurityInterceptor implements Filter {
 
     @Autowired
