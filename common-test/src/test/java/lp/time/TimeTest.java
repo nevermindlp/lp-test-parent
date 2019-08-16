@@ -35,4 +35,15 @@ public class TimeTest {
         System.out.println(d.getTime());
     }
 
+
+    @Test
+    public void timeBase() {
+        long time = System.currentTimeMillis();
+        long timeSlot = 1000;
+        System.out.println(time);
+        System.out.println(time % timeSlot);
+        System.out.println(time - time % timeSlot);
+    }
+
+
 }

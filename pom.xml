@@ -29,6 +29,11 @@
         <module>springframe-test</module>
         <module>objectpool-test</module>
         <module>redis-test</module>
+        <module>mykafkatest0.8</module>
+        <module>lock-test</module>
+        <module>startparam-test</module>
+        <module>deepjvm</module>
+        <module>oom-dump-test</module>
     </modules>
 
     <properties>

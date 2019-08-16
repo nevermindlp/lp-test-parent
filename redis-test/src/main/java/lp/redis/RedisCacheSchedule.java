@@ -23,7 +23,7 @@ public class RedisCacheSchedule {
 
     @Scheduled(fixedRate = 1000)
     public void doCacheScan() {
-        // 按track维度失效
+        // !!!按track维度失效!!!
         System.out.println("cache scan begin...");
         Set cameraSet = getAllCameraKeys();
         cameraSet.forEach(key -> {

@@ -33,10 +33,8 @@ public class MainTest {
         System.out.println("get key from app.conf file, test1 is : " + ConfigUtil.get("test1"));
 
         SchoolService schoolService = context.getBean(SchoolService.class);
-        schoolService.showInfo();
-
-//        Date d = new Date(1540977911644L);
-//        System.out.println(d);
+//        schoolService.showInfo();
+        schoolService.exceptionRollback();
 
     }
 
