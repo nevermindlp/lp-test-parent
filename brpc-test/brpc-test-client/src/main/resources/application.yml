@@ -1,0 +1,15 @@
+# log config
+logging:
+  level:
+    ROOT: INFO
+
+# brpc config
+brpc:
+  global:
+    naming:
+      version: 1.0.0
+      ignoreFailOfNamingService: true
+      naming-service-url: list://localhost:8228
+    client:
+      work-thread-num: 1
+      io-thread-num: 1

@@ -34,6 +34,21 @@
         <module>startparam-test</module>
         <module>deepjvm</module>
         <module>oom-dump-test</module>
+        <module>consul-test</module>
+        <module>ser-deser-test</module>
+        <module>retry-test</module>
+        <module>shield</module>
+        <module>brpc-test</module>
+        <module>patronum-test</module>
+        <module>mainthread-test</module>
+        <module>json-path</module>
+        <module>boot-test-parent</module>
+        <module>cluster-test</module>
+        <module>gongwuyuan</module>
+        <module>float-div</module>
+        <module>lambda-test</module>
+        <module>stream-parallel-test</module>
+        <module>swig-test</module>
     </modules>
 
     <properties>

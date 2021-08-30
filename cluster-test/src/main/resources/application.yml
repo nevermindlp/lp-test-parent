@@ -1,0 +1,23 @@
+#debug: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.153.177.21:8306/agg_performance_ess3?characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    username: root
+    password: aip@123
+    hikari:
+      maximum-pool-size: 100
+      connection-timeout: 120000
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    showSql: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+
+
+
+
