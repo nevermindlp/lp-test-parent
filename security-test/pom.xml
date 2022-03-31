@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <boot.version>2.0.2.RELEASE</boot.version>
+        <boot.version>2.5.12</boot.version>
         <sprint.security.test>5.0.5.RELEASE</sprint.security.test>
         <mybatis.version>3.2.7</mybatis.version>
         <mybatis-spring.version>1.2.2</mybatis-spring.version>
