@@ -22,7 +22,7 @@ import org.apache.commons.lang3.StringUtils;
  * @date 13-11-18
  * @since 1.0
  */
-public abstract class Assert {
+public abstract class Assert  {
 
     /**
      * 判断两个List<?>是否相等
