@@ -1,6 +1,7 @@
 package lp.brpc.api;
 
-import com.baidu.cie.patronum.brpc.common.BrpcRequest;
+
+import com.baidu.bjf.remoting.protobuf.annotation.ProtobufClass;
 
 import lombok.Data;
 
@@ -8,8 +9,9 @@ import lombok.Data;
  * @author : lvpeng01
  * @since : 2020/4/14
  **/
+@ProtobufClass
 @Data
-public class HelloRequest extends BrpcRequest {
+public class HelloRequest {
 
     private String name;
     private Integer age;

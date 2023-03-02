@@ -29,8 +29,8 @@ public class CacheConfig {
     }
 
 
-    @CacheEvict(allEntries = true, value = {myCache, testCache})
-    @Scheduled(fixedDelay = 10 * 1000, initialDelay = 2000)
+//    @CacheEvict(allEntries = true, value = {myCache, testCache})
+//    @Scheduled(fixedDelay = 10 * 1000, initialDelay = 2000)
     public void cacheEvict() {
         System.out.println("flush cache " + new Date());
     }

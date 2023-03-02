@@ -20,7 +20,7 @@ public class CommonCacheService {
     @Autowired
     private UserRepository userRepository;
 
-    @Cacheable(value = "a-cache")
+//    @Cacheable(value = "a-cache")
 //    @Transactional
     public UserDO getUser(Long id) {
         // getOne need Transactional annotation. omg......

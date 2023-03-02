@@ -5,9 +5,6 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
-//import com.baidu.cie.patronum.brpc.client.BrpcClientConfigs;
-//import com.baidu.cie.patronum.brpc.server.BrpcServerConfigs;
-
 /**
  * 基类brpc测试
  *
@@ -15,7 +12,6 @@ import org.springframework.context.annotation.Import;
  * @since : 2020/4/14
  **/
 @SpringBootApplication
-//@Import({BrpcClientConfigs.class, BrpcServerConfigs.class})
 public class SimpleBrpc {
 
     public static void main(String[] args) {

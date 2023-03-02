@@ -9,7 +9,7 @@ brpc:
     naming:
       version: 1.0.0
       ignoreFailOfNamingService: true
-      naming-service-url: list://localhost:8228
+      naming-service-url: list://10.92.54.95:8002
     client:
       work-thread-num: 1
       io-thread-num: 1

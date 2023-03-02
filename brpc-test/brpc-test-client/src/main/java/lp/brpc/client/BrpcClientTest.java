@@ -3,9 +3,7 @@ package lp.brpc.client;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.baidu.brpc.spring.annotation.RpcProxy;
-
-import lp.brpc.api.HelloService;
+//import lp.brpc.api.HelloService;
 
 /**
  * @author : lvpeng01

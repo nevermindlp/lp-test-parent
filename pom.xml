@@ -49,6 +49,8 @@
         <module>lambda-test</module>
         <module>stream-parallel-test</module>
         <module>swig-test</module>
+        <module>javaagent</module>
+        <module>starlight-test</module>
     </modules>
 
     <properties>
