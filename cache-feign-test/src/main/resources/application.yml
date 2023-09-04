@@ -1,0 +1,6 @@
+server:
+  port: 8782
+
+feign:
+  httpclient:
+    enabled: true

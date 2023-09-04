@@ -1,7 +1,6 @@
 package lp.patronum.brpc.api;
 
-import com.baidu.cie.patronum.brpc.common.BrpcResponse;
-
+import com.baidu.bjf.remoting.protobuf.annotation.ProtobufClass;
 import lombok.Data;
 
 /**
@@ -9,6 +8,7 @@ import lombok.Data;
  * @since : 2020/4/14
  **/
 @Data
-public class HelloResponse extends BrpcResponse {
+@ProtobufClass
+public class HelloResponse {
     private String message;
 }

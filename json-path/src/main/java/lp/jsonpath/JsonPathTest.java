@@ -31,11 +31,26 @@ public class JsonPathTest {
 
     private static final ObjectMapper mapper = new ObjectMapper();
 
+//    public static void main(String[] args) {
+//        //        jacksonTest();
+////        jsonPathTest();
+////        jsonPathArray();
+//        jsonIteratorTest();
+//    }
+
     public static void main(String[] args) {
-        //        jacksonTest();
-//        jsonPathTest();
-//        jsonPathArray();
-        jsonIteratorTest();
+        ObjectMapper MAPPER = new ObjectMapper();
+        String json = "{\"top\":\"\", \"left\":\"\", \"bottom\":\"\", \"confidence\":\"\", \"width\":195.0, "
+                + "\"subLocations\":\"\", \"attributes\":\"\", \"right\":\"\", \"height\":504.0, \"objectType\":\"\"}";
+//        String json = "{\"top\":\"\",\"left\":\"\",\"width\":195.0,\"height\":504.0}";
+        Location objectLocation = null;
+        try {
+//            MAPPER.convertValue();
+            objectLocation = MAPPER.readValue(json, Location.class);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        System.out.println(objectLocation);
     }
 
     public static void jacksonTest() {

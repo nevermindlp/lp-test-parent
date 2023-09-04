@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
 #    url: jdbc:mysql://yq01-aip-gpu-test16.yq01:8306/superarchivev2_1?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
-    url: jdbc:mysql://yq01-aip-gpu-test20.yq01:8310/superarchivev2?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    url: jdbc:mysql://10.234.161.159:8306/superarchivev2?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
 #    url: jdbc:mysql://yq01-aip-gpu-test20.yq01:8307/superarchivev2?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
 #    url: jdbc:mysql://yq01-aip-gpu-test20.yq01:8309/superarchivev2?autoReconnect=true&useSSL=false
     username: root
