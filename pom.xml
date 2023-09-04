@@ -29,6 +29,7 @@
         <module>springframe-test</module>
         <module>objectpool-test</module>
         <module>redis-test</module>
+        <module>my-kafka-test</module>
         <module>mykafkatest0.8</module>
         <module>lock-test</module>
         <module>startparam-test</module>
@@ -37,7 +38,6 @@
         <module>consul-test</module>
         <module>ser-deser-test</module>
         <module>retry-test</module>
-        <module>shield</module>
         <module>brpc-test</module>
         <module>patronum-test</module>
         <module>mainthread-test</module>
@@ -50,7 +50,14 @@
         <module>stream-parallel-test</module>
         <module>swig-test</module>
         <module>javaagent</module>
-        <module>starlight-test</module>
+        <module>error-test</module>
+        <module>cipher-test</module>
+        <module>base-test</module>
+        <module>bean-init-test</module>
+        <module>dynamic-qps-test</module>
+        <module>cache-feign-test</module>
+        <module>schedule-test</module>
+        <module>daemon-test</module>
     </modules>
 
     <properties>

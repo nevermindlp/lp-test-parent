@@ -1,6 +1,7 @@
 package lp.proxy.service;
 
-import com.sun.tools.javac.util.Pair;
+
+import javafx.util.Pair;
 
 /**
  * Created by lvpeng01 on 2018/4/2.

@@ -20,9 +20,6 @@ import com.baidu.sapd.agent.common.config.EnableAgentCommonSdk;
 import com.baidu.sapd.agent.common.message.request.CommonRequest;
 import com.baidu.sapd.agent.sdk.config.EnableAgentRpcSdk;
 import com.baidu.sapd.agent.sdk.rpc.human.BrpcTracerService;
-import com.google.common.collect.Maps;
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
-
 import junit.framework.TestCase;
 
 @RunWith(SpringJUnit4ClassRunner.class)
